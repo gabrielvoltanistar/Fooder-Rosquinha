@@ -1,0 +1,77 @@
+/* ESTILO GERAL DO FOOTER */
+footer{
+    background-color: rgb(255, 255, 255); /* Cor de fundo da página */
+    color: black; /* Cor da fonte */
+    padding: 40px 0; /* (Sequência: cima, direita, baixo, esquerda) */
+    /* Padding:recuo da borda para dentro - Margin:recuo da borda para fora*/
+    font-family: Georgia, Times, 'Times New Roman', serif; /* Estilo da fonte */
+}
+
+/* O footer a seguir tem um "." e não é igual o de cima, por que ele tem class */
+.footer-container{
+display: flex;
+justify-content: space-between;
+flex-wrap: wrap;
+max-width: 1200px;
+margin: 0 auto;
+padding: 0 20px;
+}
+
+.footer-section{
+    flex-basis: 23%; /* Faz com que as seções ocupem 23% da largura, com espaço para margens */
+    margin-bottom: 20px;
+}
+
+.footer-section h4{ /* Estilo dos títulos */
+    margin-bottom: 15px;
+    font-size: 18px;
+    color: rgb(5, 117, 187);
+}
+
+.footer-section p, .footer-section ul{
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+}
+
+.footer-section ul{
+    list-style-type: none;
+}
+
+.footer-section ul li{
+    margin-bottom: 10px;
+}
+
+.footer-section ul li a{
+    color: rgb(248, 104, 169);
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+.footer-section ul li a:hover{
+    color: rgb(92, 156, 229);
+}
+
+.social-links a{
+    display: inline-block;
+    margin-right: 10px;
+    color: rgb(255, 149, 214);
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+.social-links a:hover{
+    color: rgb(92, 156, 229);
+}
+
+.footer-bottom{
+    text-align: center;
+    margin-top: 20px;
+    padding: 10px 0;
+    border-top: 1px solid #442121;
+    font-size: 14px;
+}
+
+.footer-bottom p{
+    margin: 0;
+}
